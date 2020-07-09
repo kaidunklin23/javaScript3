@@ -1,10 +1,10 @@
 var kaija = 18;
 var shonda = 1;
-function addition ( kaija,shonda){
-return (kaija+shonda)
+function additionFunction(kaija,shonda){
+    return kaija + shonda;
 }
 
-console.log(addition(kaija,shonda));
+console.log(additionFunction(kaija,shonda));
 
 var mike = 2;
 function addition ( kaija,shonda,mike){
@@ -36,9 +36,9 @@ console.log(kangaroo.action.hop);
 console.log(microphone.color.pink);
 console.log(flower.scent.sweet);
 
-console.log(kangaroo[name]);
-console.log(microphone[color]);
-console.log(flower[name]);
+console.log(kangaroo["name"]);
+console.log(microphone["color"]);
+console.log(flower["name"]);
 
 kangaroo.tailSize = "short";
 microphone.color = "black";
