@@ -5,16 +5,16 @@ return kaija + shonda;
 };
 console.log(additionFunction(kaija,shonda));
 var mike = 2;
-function addition ( kaija,shonda,mike){
+function additionOne ( kaija,shonda,mike){
     return kaija + shonda + mike;
 }
-console.log(addition(kaija,shonda,mike));
+console.log(additionOne(kaija,shonda,mike));
 
 var austin = 5;
-function addition (kaija,shonda,mike,austin){
+function additionTwo (kaija,shonda,mike,austin){
     return kaija + shonda + mike + austin;
 }
-console.log(kaija,shonda,mike,austin);
+console.log(additionTwo(kaija,shonda,mike,austin));
 
 var  kangaroo ={
     "name": "kaija",
