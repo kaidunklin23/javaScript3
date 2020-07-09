@@ -1,19 +1,18 @@
-var kaija = 18;
 var shonda = 1;
-function additionFunction(kaija,shonda){
-    return kaija + shonda;
-}
-
+var kaija = 18;
+function additionFunction (kaija,shonda){
+return kaija + shonda;
+};
 console.log(additionFunction(kaija,shonda));
-
 var mike = 2;
 function addition ( kaija,shonda,mike){
-    return (kaija+shonda+mike)
+    return kaija + shonda + mike;
 }
 console.log(addition(kaija,shonda,mike));
+
 var austin = 5;
 function addition (kaija,shonda,mike,austin){
-    return (kaija + shonda + mike + austin)
+    return kaija + shonda + mike + austin;
 }
 console.log(kaija,shonda,mike,austin);
 
@@ -32,18 +31,15 @@ var  flower ={
     "color": "purple",
     "scent": "sweet"
 };
-console.log(kangaroo.action.hop);
-console.log(microphone.color.pink);
-console.log(flower.scent.sweet);
-
-console.log(kangaroo["name"]);
-console.log(microphone["color"]);
-console.log(flower["name"]);
-
+console.log(kangaroo.action);
+console.log(microphone.color);
+console.log(flower.scent);
+console.log(kangaroo['name']);
+console.log(microphone['color']);
+console.log(flower['name']);
 kangaroo.tailSize = "short";
 microphone.color = "black";
 flower.scent = "stinks";
-
 kangaroo["name"] = "karima";
 microphone["sound"] = "quiet";
 flower["color"] = "yellow";
